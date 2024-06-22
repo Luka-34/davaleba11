@@ -1,12 +1,10 @@
 // App.js
 import React from 'react';
-import Books from '../src/components/bookList'; // Books კომპონენტის იმპორტი
+import Books from '../src/components/books';
 
-// App კომპონენტი წარმოადგენს მთავარ კომპონენტს
 const App = () => {
     return (
         <div>
-            {/* Books კომპონენტის რენდერინგი */}
             <Books />
         </div>
     );
